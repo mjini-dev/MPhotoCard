@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">M Photo Card</string>
+    <string name="ok">ok</string>
+
+    <!--광고용 -->
+    <string name="admob_app_id">ca-app-pub-7820279083754762~9420445869</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7820279083754762/3593404119</string>
+    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="font_prompt">폰트 선택</string>
+<!--    <string-array name="font">-->
+<!--        <item>꽃길</item>-->
+<!--        <item>명성</item>-->
+<!--        <item>바탕</item>-->
+<!--        <item>서울한강</item>-->
+<!--        <item>신영복</item>-->
+<!--        <item>유토손글씨</item>-->
+<!--        <item>잘난</item>-->
+<!--        <item>정음</item>-->
+<!--        <item>제주한라산</item>-->
+<!--        <item>티비엔</item>-->
+
+<!--    </string-array>-->
+</resources>

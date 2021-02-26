@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="font">
+
+<!--        <item><font face="android:my_font_family/batang">김포평화 바탕</font></item>-->
+        <item>기본</item>
+<!--        <item><font face="tvn_bold">김포평화 바탕</font></item>-->
+        <item>김포평화 바탕</item>
+        <item>비비트리 손글씨</item>
+<!--        <item><u>비비트리 손글씨</u></item>-->
+        <item>상상토끼 꽃길</item>
+        <item>서울한강</item>
+        <item>신영복</item>
+        <item>연성</item>
+        <item>잘난</item>
+        <item>정음</item>
+        <item>제주한라산</item>
+        <item>티비엔</item>
+
+    </string-array>
+</resources>

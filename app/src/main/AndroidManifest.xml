@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mphotocard">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 인터넷을 사용하기 위한 권한 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+
+            android:value="@string/admob_app_id"/>
+
+        <activity android:name=".test">
+
+        </activity>
+        <activity android:name=".Sample" />
+        <activity android:name=".Sample_0" />
+        <activity android:name=".Sample_2" />
+        <activity android:name=".Camera" />
+
+        <activity android:name=".Sample_3" />
+
+        <activity android:name=".EditImage" />
+        <activity android:name=".Edit_Text"
+            android:windowSoftInputMode="adjustNothing"/>
+
+        <activity android:name=".MyCardList" />
+
+        <activity android:name=".EditingCard" />
+        <activity android:name=".Edit_Text_edt"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".EditImage_edt" />
+
+
+        <activity android:name=".MakingCard" />
+
+
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/kakao_scheme"
+                    android:host="@string/kakaolink_host"/>
+            </intent-filter>
+
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key"/>
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mphotocard"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+
+    <!-- 1.정음체 -->
+    <font
+        android:font="@font/jeongum"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/jeongum"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 2.김포평화바탕 -->
+    <font
+        android:font="@font/batang"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/batang"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 3.배민 연성 -->
+    <font
+        android:font="@font/bmyeonsung"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/bmyeonsung"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 4.여기어때잘난 -->
+    <font
+        android:font="@font/jalnan"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/jalnan"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 5.제주한하산 -->
+    <font
+        android:font="@font/jejuhallasan"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/jejuhallasan"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 6.서울한강체 b -->
+    <font
+        android:font="@font/seoul_hangang_b"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/seoul_hangang_b"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 7.상상토끼 꽃길 -->
+    <font
+        android:font="@font/ss_flower_road"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/ss_flower_road"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 8.Tlab신영복 -->
+    <font
+        android:font="@font/tlab_shin_young_bok"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/tlab_shin_young_bok"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 9.tvN 즐거운이야기 Bold -->
+    <font
+        android:font="@font/tvn_bold"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/tvn_bold"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+    <!-- 10.비비트리손글씨체_B -->
+    <font
+        android:font="@font/utoimage_son_guelssi"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font = "@font/utoimage_son_guelssi"
+        app:fontStyle = "normal"
+        app:fontWeight = "400"/>
+
+
+
+
+
+
+
+
+
+
+</font-family>
